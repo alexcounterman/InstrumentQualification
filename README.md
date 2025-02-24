@@ -1,23 +1,28 @@
 # InstrumentQualification
 
 How to use: 
+_________________________________________________________________________________________
 #Environment Setup: 
-npm install electron react-router-dom @mui/material @emotion/react @emotion/styled formik yup axios redux react-redux electron-oauth2 java pdfkit socket.io cors pg body-parser
+
+cd client
+    npm install electron react-router-dom @mui/material @emotion/react @emotion/styled formik yup axios redux react-redux electron-oauth2 java pdfkit socket.io cors pg body-parser
+cd ../server
+    npm install express cors pg body-parser socket.io
 
 *** Download pdfbox.jar ***
-
+_________________________________________________________________________________________
 #Run Application 
 1. Database: Run PostgreSQL and execute schema.sql
 2. Server: cd server && node server.js
 3. Client cd client && npm start (for React), then node main.js (For Electron)
-
+__________________________________________________________________________________________
 #Customize: 
 Replace placeholders (E.g., OAuth Credentials, database config)
 Expand components like InstrumentList.js or Home.js as needed. 
-
+__________________________________________________________________________________________
 #Desktop Icon -> 
 
-
+__________________________________________________________________________________________
 App structure: 
 my-instrument-qualification-app/
 ├── client/                  # Electron/React frontend
@@ -47,7 +52,7 @@ my-instrument-qualification-app/
 │   └── server.js
 └── database/               # SQL schemas
     └── schema.sql
-
+__________________________________________________________________________________________
 
 FAQ:
 1. Is There a UI for This?
