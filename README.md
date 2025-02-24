@@ -10,6 +10,15 @@ cd ../server
     npm install express cors pg body-parser socket.io
 
 *** Download pdfbox.jar ***
+
+desktop app setup 
+cd client
+    npm install electron react-router-dom @mui/material @emotion/react @emotion/styled formik yup axios redux react-redux electron-oauth2 java pdfkit
+cd ../server
+    npm install express cors pg body-parser socket.io
+ 
+Set up PostgreSQL and run database/schema.sql.
+        Replace placeholders (e.g., OAuth credentials in main.js, database config in server.js and traceability.js) with real values.
 _________________________________________________________________________________________
 #Run Application 
 1. Database: Run PostgreSQL and execute schema.sql
