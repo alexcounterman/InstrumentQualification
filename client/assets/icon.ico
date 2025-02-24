@@ -1,0 +1,4 @@
+Add an icon file:
+Windows: icon.ico (256x256 pixels).
+macOS: icon.icns (1024x1024 pixels).
+Linux: icon.png (256x256 pixels). You can create these using tools like GIMP or online converters.
