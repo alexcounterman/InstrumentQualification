@@ -25,7 +25,9 @@ function createWindow() {
       nodeIntegration: true,
     },
   });
-  win.loadURL('http://localhost:3000');
+  
+  // Load the built React app in production
+  win.loadFile(path.join(__dirname, 'build', 'index.html'));
 }
 
 app.whenReady().then(createWindow);
